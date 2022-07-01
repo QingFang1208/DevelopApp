@@ -1,0 +1,32 @@
+Iter Num: 10
+Prev energy: 3.85932
+Cur energy: 3.8133
+Energy diff: 0.0460172
+Max Curvature: 2.0913
+Seg Num: 25
+Seg Energy and Curvature: 
+0th energy: 0.00509711  high curvature: 0.599452
+1th energy: 0.00278639  high curvature: 1.05854
+2th energy: 0.00846518  high curvature: 0.23319
+3th energy: 0.000266146  high curvature: 0.00749321
+4th energy: 0.0029139  high curvature: 0.0673376
+5th energy: 0.00613291  high curvature: 0.076704
+6th energy: 0.00466896  high curvature: 0.287296
+7th energy: 0.00372192  high curvature: 0.0696012
+8th energy: 0.00323593  high curvature: 0.214445
+9th energy: 0.00231199  high curvature: 0.0754167
+10th energy: 0.00183367  high curvature: 0.0433807
+11th energy: 0.00234818  high curvature: 1.33093
+12th energy: 0.00230186  high curvature: 0.0560396
+13th energy: 0.000412281  high curvature: 0.00523247
+14th energy: 0.00275428  high curvature: 1.21435
+15th energy: 0.00077996  high curvature: 0.705509
+16th energy: 0.00289593  high curvature: 0.0554971
+17th energy: 0.00203039  high curvature: 0.0125204
+18th energy: 0.0102158  high curvature: 0.00588295
+19th energy: 0.026485  high curvature: 2.0913
+20th energy: 0.0054142  high curvature: 0.298461
+21th energy: 0.000197885  high curvature: 0.0120144
+22th energy: 0.000584361  high curvature: 0.0123142
+23th energy: 0.000514643  high curvature: 0.00467742
+24th energy: 0.00281427  high curvature: 0.0409345

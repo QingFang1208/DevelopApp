@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Developability">
+      <UniqueIdentifier>{d4411f4b-203b-44a6-974a-e138ec283808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Segmentation">
+      <UniqueIdentifier>{2fbeaf44-f8e6-47d6-9388-9dc986884eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Refinement">
+      <UniqueIdentifier>{3dc33a24-2f21-4b72-b169-4e2dc211fa26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Compute\Development\AndersonAcceleration.h">
+      <Filter>资源文件\Developability</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Development\MeshDevelop.h">
+      <Filter>资源文件\Developability</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Development\MeshLaplace.h">
+      <Filter>资源文件\Developability</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Development\MeshTopo.h">
+      <Filter>资源文件\Developability</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Development\TriInequality.h">
+      <Filter>资源文件\Developability</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Development\Types.h">
+      <Filter>资源文件\Developability</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Segmentation\CurSegCut.h">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Segmentation\DiffSegCut.h">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Segmentation\FiedlerVector.h">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Segmentation\matlab_utils.h">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Segmentation\SegCut.h">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Segmentation\Segment.h">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Refinement\GaussMin.h">
+      <Filter>资源文件\Refinement</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Refinement\Merge.h">
+      <Filter>资源文件\Refinement</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\Optimization.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Compute\SegMesh.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDefinition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Compute\Development\MeshDevelop.cpp">
+      <Filter>资源文件\Developability</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Development\MeshLaplace.cpp">
+      <Filter>资源文件\Developability</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Development\MeshTopo.cpp">
+      <Filter>资源文件\Developability</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Development\TriInequality.cpp">
+      <Filter>资源文件\Developability</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Segmentation\CurSegCut.cpp">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Segmentation\DiffSegCut.cpp">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Segmentation\FiedlerVector.cpp">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Segmentation\matlab_utils.cpp">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Segmentation\SegCut.cpp">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Segmentation\Segment.cpp">
+      <Filter>资源文件\Segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Refinement\GaussMin.cpp">
+      <Filter>资源文件\Refinement</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Refinement\Merge.cpp">
+      <Filter>资源文件\Refinement</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\Optimization.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Compute\SegMesh.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDefinition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
